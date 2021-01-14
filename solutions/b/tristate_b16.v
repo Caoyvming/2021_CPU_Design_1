@@ -12,6 +12,6 @@ input                      SEL;
 output      [15:0]       D_OUT;
 
 //logic
-assign D_OUT = (SEL) ? (16'bz) : (D_IN);
+assign D_OUT = (SEL) ? (D_IN) : (16'bz);
 
 endmodule
